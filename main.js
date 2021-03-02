@@ -40,7 +40,7 @@ window.addEventListener("keydown", my_keydown);
 
 function my_keydown(e){
 keyPressed=e.keyCode;
-console.log(keyPress);
+console.log(keyPressed);
 
 if (keyPressed=='38'){
 car1_up();
